@@ -228,7 +228,6 @@ jobs:
   
       - name: Debug
         run: |
-          cd kernel_workspace/kernel_platform/KernelSU
           echo "KernelSU Version"
           git rev-list --count main
           echo "GitHub ENV"
